@@ -1,9 +1,0 @@
-Started analysis of SRR24413066.fastq.gz
-Approx 5% complete for SRR24413066.fastq.gz
-Approx 10% complete for SRR24413066.fastq.gz
-Exception in thread "Thread-1" java.lang.OutOfMemoryError: Java heap space
-	at uk.ac.babraham.FastQC.Modules.GCModel.GCModel.<init>(GCModel.java:66)
-	at uk.ac.babraham.FastQC.Modules.PerSequenceGCContent.processSequence(PerSequenceGCContent.java:198)
-	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:89)
-	at java.lang.Thread.run(Thread.java:750)
-slurmstepd: error: *** JOB 9891682 ON s7 CANCELLED AT 2025-04-07T15:59:25 ***
