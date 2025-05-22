@@ -30,8 +30,8 @@ cp $REF_DIR/pilon_polished_R7.fasta $SNIC_TMP/
 cd $SNIC_TMP
 
 # Fix contig names in the reference FASTA to match GFF
-sed 's/^>contig_2_pilon/>gnl|Prokka|GDBGCFLD_1/' pilon_polished_R7.fasta | \
-sed 's/^>contig_3_pilon/>gnl|Prokka|GDBGCFLD_2/' > fixed_reference.fasta
+sed 's/^>contig_3_pilon/>gnl|Prokka|DCFNGNFD_1/' pilon_polished_R7.fasta | \
+sed 's/^>contig_1_pilon/>gnl|Prokka|DCFNGNFD_2/' > fixed_reference.fasta
 
 # Index corrected reference genome
 bwa index fixed_reference.fasta
